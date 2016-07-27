@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809DA6751D4933130024EC38 /* RCTNTESVideo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 809DA6741D4933130024EC38 /* RCTNTESVideo.h */; };
+		809DA6771D4933130024EC38 /* RCTNTESVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DA6761D4933130024EC38 /* RCTNTESVideo.m */; };
+		809DA68A1D4948700024EC38 /* RCTNTESVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 809DA6891D4948700024EC38 /* RCTNTESVideoManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		809DA66F1D4933130024EC38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				809DA6751D4933130024EC38 /* RCTNTESVideo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		809DA6711D4933130024EC38 /* libRCTNTESVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTNTESVideo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		809DA6741D4933130024EC38 /* RCTNTESVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNTESVideo.h; sourceTree = "<group>"; };
+		809DA6761D4933130024EC38 /* RCTNTESVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNTESVideo.m; sourceTree = "<group>"; };
+		809DA6881D4948590024EC38 /* RCTNTESVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTNTESVideoManager.h; sourceTree = "<group>"; };
+		809DA6891D4948700024EC38 /* RCTNTESVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTNTESVideoManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		809DA66E1D4933130024EC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809DA6681D4933130024EC38 = {
+			isa = PBXGroup;
+			children = (
+				809DA6731D4933130024EC38 /* RCTNTESVideo */,
+				809DA6721D4933130024EC38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		809DA6721D4933130024EC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809DA6711D4933130024EC38 /* libRCTNTESVideo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809DA6731D4933130024EC38 /* RCTNTESVideo */ = {
+			isa = PBXGroup;
+			children = (
+				809DA6741D4933130024EC38 /* RCTNTESVideo.h */,
+				809DA6761D4933130024EC38 /* RCTNTESVideo.m */,
+				809DA6881D4948590024EC38 /* RCTNTESVideoManager.h */,
+				809DA6891D4948700024EC38 /* RCTNTESVideoManager.m */,
+			);
+			path = RCTNTESVideo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		809DA6701D4933130024EC38 /* RCTNTESVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809DA67A1D4933130024EC38 /* Build configuration list for PBXNativeTarget "RCTNTESVideo" */;
+			buildPhases = (
+				809DA66D1D4933130024EC38 /* Sources */,
+				809DA66E1D4933130024EC38 /* Frameworks */,
+				809DA66F1D4933130024EC38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTNTESVideo;
+			productName = RCTNTESVideo;
+			productReference = 809DA6711D4933130024EC38 /* libRCTNTESVideo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809DA6691D4933130024EC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bobo;
+				TargetAttributes = {
+					809DA6701D4933130024EC38 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 809DA66C1D4933130024EC38 /* Build configuration list for PBXProject "RCTNTESVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 809DA6681D4933130024EC38;
+			productRefGroup = 809DA6721D4933130024EC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809DA6701D4933130024EC38 /* RCTNTESVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809DA66D1D4933130024EC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809DA6771D4933130024EC38 /* RCTNTESVideo.m in Sources */,
+				809DA68A1D4948700024EC38 /* RCTNTESVideoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		809DA6781D4933130024EC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		809DA6791D4933130024EC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		809DA67B1D4933130024EC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		809DA67C1D4933130024EC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809DA66C1D4933130024EC38 /* Build configuration list for PBXProject "RCTNTESVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809DA6781D4933130024EC38 /* Debug */,
+				809DA6791D4933130024EC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809DA67A1D4933130024EC38 /* Build configuration list for PBXNativeTarget "RCTNTESVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809DA67B1D4933130024EC38 /* Debug */,
+				809DA67C1D4933130024EC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 809DA6691D4933130024EC38 /* Project object */;
+}
